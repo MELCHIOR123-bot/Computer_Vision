@@ -13,5 +13,7 @@ while  ret:
     if ret : 
         cv2.imshow('frame', frame)
         cv2.waitKey(34)
+
+# This is for openCv to destroy and release the memory it had allocated for the video
 video.release()
 cv2.destroyAllWindows()
