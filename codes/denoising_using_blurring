@@ -1,0 +1,10 @@
+import os
+import cv2
+
+img= cv2.imread(os.path.join('..','resources','ladynoisy.png'))
+k_size = 7
+# Median Blur
+img_mblur = cv2.medianBlur(img,k_size)
+cv2.imshow('img',img)
+cv2.imshow('img_median', img_mblur)
+cv2.waitKey(0)
