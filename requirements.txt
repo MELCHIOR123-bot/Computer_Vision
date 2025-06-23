@@ -1,0 +1,7 @@
+opencv-python
+numpy
+matplotlib
+jupyter
+scikit-image        # for advanced image processing (optional)
+scipy               # used in some OpenCV utilities
+opencv-contrib-python
